@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mvvm_project/resources/components/round_button.dart';
 import 'package:mvvm_project/utils/routes/rotes_named.dart';
 import 'package:mvvm_project/view_model/auth_viewmodel.dart';
-import 'package:mvvm_project/views/Screens/HomeScreen_view.dart';
+
 import 'package:provider/provider.dart';
 
 import '../../utils/utils.dart';

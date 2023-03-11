@@ -3,7 +3,14 @@ import 'package:mvvm_project/repo/auth_repository.dart';
 import 'package:mvvm_project/utils/routes/rotes_named.dart';
 import 'package:mvvm_project/utils/routes/routes.dart';
 import 'package:mvvm_project/view_model/auth_viewmodel.dart';
-import 'package:mvvm_project/views/Screens/login_view.dart';
+import 'package:mvvm_project/views/ExtraScreens/login_view.dart';
+
+import 'package:mvvm_project/views/Screens/tabbar.dart';
+import 'package:mvvm_project/views/Screens/whatsapp.dart';
+import 'package:mvvm_project/views/navBarSamples/BuyPointScrean.dart';
+import 'package:mvvm_project/views/navBarSamples/MainScrean.dart';
+import 'package:mvvm_project/views/navBarSamples/listviewscrean.dart';
+
 import 'package:provider/provider.dart';
 
 void main() {
@@ -21,14 +28,16 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => AuthViewModel()),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           // This is the theme of your application.
 
           primarySwatch: Colors.blue,
         ),
-        initialRoute: RoutesName.login,
-        onGenerateRoute: Routes.generateRoute,
+        home: Main(),
+        // initialRoute: RoutesName.login,
+        // onGenerateRoute: Routes.generateRoute,
       ),
     );
   }

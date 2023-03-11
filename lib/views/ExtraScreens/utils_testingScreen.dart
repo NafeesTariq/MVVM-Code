@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mvvm_project/utils/routes/rotes_named.dart';
-import 'package:mvvm_project/views/Screens/HomeScreen_view.dart';
 
 import '../../utils/utils.dart';
 
