@@ -3,13 +3,9 @@ import 'package:mvvm_project/repo/auth_repository.dart';
 import 'package:mvvm_project/utils/routes/rotes_named.dart';
 import 'package:mvvm_project/utils/routes/routes.dart';
 import 'package:mvvm_project/view_model/auth_viewmodel.dart';
-import 'package:mvvm_project/views/ExtraScreens/login_view.dart';
-
-import 'package:mvvm_project/views/Screens/tabbar.dart';
-import 'package:mvvm_project/views/Screens/whatsapp.dart';
-import 'package:mvvm_project/views/navBarSamples/BuyPointScrean.dart';
-import 'package:mvvm_project/views/navBarSamples/MainScrean.dart';
-import 'package:mvvm_project/views/navBarSamples/listviewscrean.dart';
+import 'package:mvvm_project/views/Screans/BuyPointScrean.dart';
+import 'package:mvvm_project/views/Screans/MainScrean.dart';
+import 'package:mvvm_project/views/Screans/listviewscrean.dart';
 
 import 'package:provider/provider.dart';
 

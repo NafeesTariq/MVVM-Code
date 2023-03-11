@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mvvm_project/utils/routes/rotes_named.dart';
 import 'package:mvvm_project/views/Screens/Splash.dart';
-import 'package:mvvm_project/views/navBarSamples/BuyPointScrean.dart';
+import 'package:mvvm_project/views/Screans/BuyPointScrean.dart';
 
 import '../../views/ExtraScreens/HomeScreen_view.dart';
 import '../../views/ExtraScreens/Signup_view.dart';
